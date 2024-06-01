@@ -1,0 +1,57 @@
+.contact .btn{
+    background: yellow;
+    color:#fff;
+    margin-top: 30px;
+}
+p.a{
+    font-size: 18px;
+}
+body{
+    background-color: rgba(198, 198, 198, 0.867);
+
+}
+.choose-img img
+{
+    width:100%
+}
+.single-box
+{
+    padding: 20px;
+}
+.single-box i
+{
+    font-size: 35px;
+    margin-bottom: 25px;
+    color:#e53f29;
+}
+.single-box h2
+{
+    font-family: bebas nenu;
+    color: #08194a;
+}
+
+
+
+/*fotter*/
+.footer {
+   left:0;
+   bottom: 0;
+   padding:1.5%;
+   height:20%;
+   width: 100%;
+   background-color: #08194a;
+   color:white;
+   text-align: center;
+   border:2px solid #333;
+}
+.logo{
+    position:absolute;
+    margin-top:0px;
+    padding-right:100px;
+  }
+  .SocialLogos img {
+
+	width:40px;
+	height:40px;
+}
+

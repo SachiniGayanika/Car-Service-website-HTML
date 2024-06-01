@@ -1,0 +1,62 @@
+ /*contact*/
+
+ .left-contact
+ {
+     background: #08194a;
+     padding: 60px;
+     color: #fff;
+ }
+ .left-contact h3
+ {
+     font-family: bebas neue;
+     margin-bottom: 20px;
+ }
+ label
+ {
+     font-family: bebas neue;
+     font-size: 28px;
+     margin: 10px 0;
+ }
+ .contact .btn
+ {
+     background: #08194a;
+     color: #fff;
+     display: inline-block;
+     margin-top: 30px;
+ }
+ p.a{
+  font-size: 18px;
+ }
+ marquee{
+  font-size: 25px;
+  color: red;
+ }
+ body{
+  background-color: rgba(198, 198, 198, 0.867);
+  font-size: medium;
+  color: #333;
+}
+/*fotter*/
+
+
+ .footer {
+   left:0;
+   bottom: 0;
+   padding:1.5%;
+   height:20%;
+   width: 100%;
+   background-color:#08194a;
+   color:white;
+   text-align: center;
+   border:2px solid #333;
+}
+.SocialLogos img {
+
+  width:40px;
+  height:40px;
+}
+.logo{
+  position:absolute;
+  margin-top:0px;
+  padding-right:100px;
+}

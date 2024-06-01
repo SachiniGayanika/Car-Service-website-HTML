@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 car Repair Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" >
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="contact.css">
+
+     <script>
+      function test(){
+          if(document.getElementById("n").value){
+              window.alert("Thank you for contacting us")
+          }
+          else if(document.getElementById("e").value){
+              window.alert("Thank you for contacting us")
+          }
+          else{
+                window.alert("Please fill the Name & Email first")
+            }    
+          }
+      
+  </script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+  <a class="navbar-brand" href="#"><span>Rep</span>airo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="Finalproject.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Why Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="testimonial.html">Testimonial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+       </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="contact section-padding" id="contact">
+    <div class="containeer">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-header text-center">
+                    <h2><u>Contact<span> Us</u></span></h2>
+                    <p class="a">A Contact Us page is essential for your site to engage with visitors and customers.<br>
+                      Check out these helpful tips.</p>
+                </div>
+            </div>
+        </div>  
+        <div class="row">
+            <div class="col-lg-5 col-sm-12">
+                <div class="left-contact">
+                    <h3>Location</h3>
+                    <p>Nilupul Niwasa,Kuruduwaththa <br> Dampell,Telijjawila</p>
+                    <h3>Email:</h3>
+                    <p>Darshananuwan958@gmail.com</p>
+                    <h3>Call Us:</h3>
+                    <p>071 358 8038</p>
+                </div>
+            </div>
+            <div class="col-lg-6 offset-lg-1 col-sm-12">
+                <form>
+                    <label for="">Your Name</label>
+                    <input type="text" class="form-control" id="n" placeholder="Your Name" required>
+                    <label for="">Your Email</label>
+                    <input type="email" class="form-control" id="e" placeholder="Your Email" required>
+                    <label for="">Your Address</label>
+                    <textarea class="form-control" placeholder=" Your Address" required></textarea>
+                    <label for="">Your Message</label>
+                    <textarea class="form-control" placeholder="Your Message"></textarea>
+                    <button class="btn" type="submit" onclick="test()">Submit Form</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<marquee><b>Thank You for Coming! Please Come again!</b></marquee>
+
+<!--fotter-->
+
+<div class="footer">
+    <form method="post">
+    <div>
+        <p class="copyRSing">Copyright #258 2023 - MADSE_003 Car Repairing Center - All Right Reserved</p>
+     
+    </div>	
+    <div class="SocialLogos">
+        <a href="http://facebook.com" ><img src="FBLogo.png" alt="Facebook"></a> 
+        <a href="http://instagram.com" ><img src="InstaLogo.png" alt="Instagram"></a> 
+        <a href="http://twitter.com" ><img src="TwitterLogo.png" alt="Twitter"></a> 
+        <a href="http://google+.com" ><img src="G+Logo.png" alt="GooglePlus"></a> 
+    </div>
+    </form>
+</div>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" ></script>
+   
+   
+</body>
+</html>

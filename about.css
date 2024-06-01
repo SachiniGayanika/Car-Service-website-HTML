@@ -1,0 +1,67 @@
+h3{
+       color: black;
+}
+.btn{
+	background: #08194a;
+    color: #fff;
+}
+p{
+	font-size: 20px;
+}
+.card-body{
+	background: #08194a;
+    color: #fff;
+}
+.card-body{
+    box-shadow:  rgba #08194a;
+}
+
+body{
+    background-color: rgba(198, 198, 198, 0.867);
+}
+
+
+.img-area img
+{
+    width:100% !important;
+}
+.about-text h2
+{
+    font-size: 45px;
+    font-weight: 700;
+    color:#08194a;
+}
+.about-text h2 span
+{
+    color:#e53f29;
+}
+.about-text .btn
+{
+    background: #08194a;
+    color: #fff;
+}
+
+
+
+/*fotter*/
+.footer {
+   left:0;
+   bottom: 0;
+   padding:1.5%;
+   height:20%;
+   width: 100%;
+   background-color:#08194a;
+   color:white;
+   text-align: center;
+   border:2px solid #333;
+}
+.logo{
+    position:absolute;
+    margin-top:0px;
+    padding-right:100px;
+  }
+  .SocialLogos img {
+
+	width:40px;
+	height:40px;
+}
